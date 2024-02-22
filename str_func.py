@@ -1,4 +1,8 @@
 def str_func(string):
-    """Докстринг о том, что делает эта функция"""
+    """докстринг про функционал первой функции"""
+    string_upper=string.upper()
+    return string_upper
+def first_upper(string):
+    """Докстринг про функционал второй функции"""
     string_title=string.title()
     return string_title
